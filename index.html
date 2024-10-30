@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sample Site</title>
-  <link rel="stylesheet" href ="css/index.css">
+  <title>BRUNO's</title>
+  <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head> 
 
 <body>
   
- 
-    <nav>
-        Hello am Bruno
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#login">Login</a></li>
-      </ul>
-    </nav>
-    <div id="home">
-        <h1>WELCOME TO BRUNO's</h1><br>
-        <p>BRUNO's let's keep it green</p>
-    </div>
+  <nav>
+    <h1>Hello, I'm Bruno</h1>
+    <ul>
+      <li><a onclick="" href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#login">Login</a></li>
+    </ul>
+  </nav>
 
+  <div id="home">
+    <h1>WELCOME TO BRUNO's</h1>
+    <p>Ndi Umunyarwanda</p>
+    <button onclick="nextSection()" id="get-started">Let's get it on the Roll</button>
+  </div>
 
-  
   <section id="services">
-    
-    <div>
+    <div class="service">
       <i class="fas fa-sync"></i>
-      <p>hot updates </p>
+      <p>Hot Updates</p>
     </div>
     
-   <div>
+    <div class="service">
       <i class="fas fa-cloud"></i>
-      <p>cloud storage</p>
-   </div>
-   
-    <div>
-       <i class="fas fa-chart-line"></i>
-      <p>stocks </p>
-   </div>
-   
-   <div>
-      <i class="fas fa-shopping-cart"></i>
-      <p>sales management</p>
+      <p>Cloud Storage</p>
     </div>
     
-    <div>
+    <div class="service">
+      <i class="fas fa-chart-line"></i>
+      <p>Stocks</p>
+    </div>
+    
+    <div class="service">
+      <i class="fas fa-shopping-cart"></i>
+      <p>Sales Management</p>
+    </div>
+    
+    <div class="service">
       <i class="fas fa-phone"></i>
-      <p>contact us  </p>
-   </div>
-   
-   <div>
-    <i class="fas fa-dog"></i>
-    <p>free pet care</p>
-   </div>
+      <p>Contact Us</p>
+    </div>
+    
+    <div class="service">
+      <i class="fas fa-dog"></i>
+      <p>Free Pet Care</p>
+    </div>
   </section>
 
- 
   <section id="about">
-    <h2>About Us</h2>
-    <p>hello we are hiring 🤣😂</p>
-  </section>
-
+  <h2>About Us</h2>
+  <p>Hello, we are hiring! 😂🤣 no it's a JOKE, but</p>
+  <br>
+  <p>Welcome to BRUNO's, where dogs run the show and cats are... not invited! 🐶</p>
+  <p>If your German Shepherd thinks he’s the CEO 🧑‍💼, congratulations! You’ve got a furry boss! 🐾🦊</p>
+  <p>And that Husky? He’s just here to eat your socks 😂🤣 and steal your heart 🥹.</p>
+  <p>Now, if you hear we’re hiring, just know it’s a joke! Unless your dog can fetch me coffee ☕, we’re all set!</p>
+  <p>So come on down for the best pet supplies 🐶 and a side of laughs—because let’s be real, our pets are way funnier than we are! 😎</p>
   
+  <div class="image-container">
+    <img src="Majestic!.jpeg" alt="your german shepherd 😎" >
+  </div>
+  <div class="image-container">
+    <img src="Screenshot 2024-10-30 at 10.08.35.png" alt="that one husky lol 😂🤣" >
+  </div>
+</section>
+
+
   <section id="login">
     <h2>Login</h2>
     <input type="text" placeholder="Username">
     <input type="password" placeholder="Password">
     <button>Login</button>
-  </section>
+  </section><script src="/js/index.js"></script>
 </body>
 </html>
