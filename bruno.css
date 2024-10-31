@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: #b8b09c;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: auto;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #a68e7f;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+header {
+    background-color: #d9d4c5;
+    padding: 20px;
+    text-align: center;
+}
+#services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2em;
+    padding: 3em;
+    background-color: grey;
+}
+
+.service {
+    text-align: center;
+    padding: 2em;
+    background-color: #b8b09c;
+    border: 1px solid #36423e;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+    color: #D1CFCF;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgb(144, 186, 185);
+    background-color: #a2abb7;
+
+}
+
+.service i {
+    font-size: 2em;
+    color: #2a4444;
+
+}
+
+.profile-pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pictures img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 75px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-pictures img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: hsla(0, 0%, 100%, 0.671);
+    border: 1px solid #ccc;
+    transition: transform 0.3s;
+}
+#login {
+    padding: 3em;
+    text-align: center;
+    background-color: #b8b09c;
+}
+
+#login h2 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 1em;
+}
+
+#login input {
+    display: block;
+    margin: 1em auto;
+    padding: 0.7em;
+    width: 80%;
+    max-width: 280px;
+    background-color: beige;
+    border: 1px solid dark green;
+    color: #D1CFCF;
+    font-size: 1em;
+    border-radius: 2px;
+
+}
+
+#login button {
+    padding: 0.5em 1.5em;
+    background-color: #1d443f;
+    color: #E6E6E6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#login button:hover {
+    background-color: #388E3C;
+    transform: scale(1.05);
+
+}
+
+section:hover {
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b8b09c;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
